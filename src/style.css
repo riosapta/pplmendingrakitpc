@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+    background-image: url('assets/SimulatorBG.png');
+    background-repeat: no-repeat;
+    background-position: top center;  
+    background-size:cover;
+    background-color: black;
+}
+  
+body{	
+    margin: 0;
+    padding: 0;
+}
